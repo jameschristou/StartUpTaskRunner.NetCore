@@ -1,5 +1,5 @@
 # .NET Core StartUpTaskRunner
-This repository shows how to create tasks that can be run on application startup in any .NET Core application.
+This repository shows how to create tasks that can be run once on application startup in any .NET Core application.
 
 ## Usage
 1. Create a class that implements `IStartUpTask`. Put the code you want to run at start up in the `Run` method.
