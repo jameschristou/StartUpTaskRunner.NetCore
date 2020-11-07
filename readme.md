@@ -15,6 +15,7 @@ serviceCollection.AddSingleton<IStartUpTask, ExampleStartUpTask>();
 An example usage can be found in the console app project `core-startuptaskrunner-testapp`.
 
 ### Build
-To build the test app just run on the command line.
+To build this application just run `dotnet build StartUpTaskRunner.csproj` at the command line.
 
 ### Run
+To run this application just run `dotnet run StartUpTaskRunner.csproj` at the command line.
