@@ -3,11 +3,11 @@ using System.Threading.Tasks;
 
 namespace JcCore.StartUpTaskRunnerTestApp
 {
-    public class TestStartUpTask : IStartUpTask
+    public class ExampleStartUpTask : IStartUpTask
     {
         public async Task Run()
         {
-            System.Console.WriteLine("Running TestStartUpTask");
+            System.Console.WriteLine("Running ExampleStartUpTask");
         }
     }
 }

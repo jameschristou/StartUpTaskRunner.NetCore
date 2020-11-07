@@ -23,8 +23,8 @@ namespace JcCore.StartUpTaskRunnerTestApp
         {
             var serviceCollection = new ServiceCollection();
 
-            serviceCollection.AddSingleton<IStartUpTask, TestStartUpTask>();
-            serviceCollection.AddSingleton<IStartUpTask, AnotherTestStartUpTask>();
+            serviceCollection.AddSingleton<IStartUpTask, ExampleStartUpTask>();
+            serviceCollection.AddSingleton<IStartUpTask, AnotherExampleStartUpTask>();
 
             return serviceCollection;
         }

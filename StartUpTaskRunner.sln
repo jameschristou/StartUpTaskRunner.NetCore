@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core-startuptaskrunner", "core-startuptaskrunner\core-startuptaskrunner.csproj", "{DBA15AEA-57CD-4C93-BB1F-B4E68B102C2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartUpTaskRunner", "StartUpTaskRunner\StartUpTaskRunner.csproj", "{DBA15AEA-57CD-4C93-BB1F-B4E68B102C2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core-startuptaskrunner-testapp", "core-startuptaskrunner-testapp\core-startuptaskrunner-testapp.csproj", "{EF420D26-3990-478F-9C4D-AA9C0AA2C88B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartUpTaskRunner.TestApp", "StartUpTaskRunner.TestApp\StartUpTaskRunner.TestApp.csproj", "{EF420D26-3990-478F-9C4D-AA9C0AA2C88B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
